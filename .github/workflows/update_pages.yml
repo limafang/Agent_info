@@ -18,10 +18,7 @@ jobs:
           with:
             key: ${{ github.ref }}
             path: .cache
-        - run: pip install sphinx
-        - run: pip install sphinx-book-theme
-        - run: pip install myst-nb
-        - run: pip install matplotlib
-        - run: make clean
-        - run: make html 
-        - run: cp -rf build/html/* docs/
+        - run: pip install mkdocs-material
+        - run: pip install mkdocs-glightbox
+        - run: pip install mkdocs-jupyter
+        - run: mkdocs gh-deploy --force

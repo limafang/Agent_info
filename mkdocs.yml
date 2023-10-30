@@ -13,10 +13,10 @@ repo_url: "https://github.com/limafang/Agent_info"
 nav:
   - 开始:
       - 欢迎: index.md
-      - 快速了解Agent:
-  - Agent_论文推荐:
-  - Agent_项目分享:
-  - Agent_论文解读:
+      - 快速了解Agent: 开始/start.md
+  - Agent_论文推荐: Agent_论文推荐/start.md
+  - Agent_项目分享: Agent_项目分享/start.md
+  - Agent_论文解读: Agent_论文解读/start.md
   - 参与贡献:
       - 如何贡献: 参与贡献/如何贡献.md
       - 项目结构: 参与贡献/项目结构.md
